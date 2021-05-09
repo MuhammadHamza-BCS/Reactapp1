@@ -43,4 +43,4 @@ jobs:
         
         
       - name: Deploying on surge
-        run: surge ./build http://hamza27.surge.sh/ --token{{secrets.SURGE_TOKEN}}
+        run: surge ./build http://myapphamzza.surge.sh/ --token{{secrets.SURGE_TOKEN}}
